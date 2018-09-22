@@ -1,0 +1,9 @@
+﻿11.09.2018:
+AI entities doesn't want to invoke the collison event for some reason (Only with the player though and eachother).
+Blocks doesnt disapear after being Killed, you have to go on top of it for it to disapear
+
+12.09.2018:
+Make a PluginManager and a class called PluginInfo that i can serialize that contain the Initializion void and general info.
+
+22.09.2018:
+Fix some of the repetetive coding.
