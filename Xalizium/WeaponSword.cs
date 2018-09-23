@@ -9,10 +9,7 @@ namespace Xalizium
 {
     public class WeaponSword : Weapon
     {
-        public WeaponSword() : base("Sword")
-        {
-            
-        } 
+        public WeaponSword() : base("Sword") { } 
 
         public override void OnPrimaryFire()
         {

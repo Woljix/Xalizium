@@ -35,7 +35,7 @@ namespace Xalizium.API.Items
 
         public bool IsSolid { get; set; } = true;
 
-        #region Shortcuts (Don't know if this is a good coding practise)
+        #region Shortcuts (Don't know if this is a good coding practice)
         /// <summary>
         /// Shortcut to making 
         /// </summary>
@@ -51,7 +51,7 @@ namespace Xalizium.API.Items
         /// <summary>
         /// Destroys the GameObject if it is present in the GameObjectManager.
         /// </summary>
-        public virtual void Kill() { World.GameObjectManager.Delete(this); }
+        public virtual void Kill() => World.GameObjectManager.Delete(this);
 
         /// <summary>
         /// Heals the GameObject the specified amount.

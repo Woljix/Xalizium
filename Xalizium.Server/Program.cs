@@ -8,7 +8,8 @@ using System.Threading;
 using System.Threading.Tasks;
 
 namespace Xalizium.Server
-{
+{ 
+    // Not in use ATM, still working on it.
     class Program
     {
         static NetServer server;

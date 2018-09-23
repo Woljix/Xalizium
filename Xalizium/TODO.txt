@@ -3,7 +3,11 @@ AI entities doesn't want to invoke the collison event for some reason (Only with
 Blocks doesnt disapear after being Killed, you have to go on top of it for it to disapear
 
 12.09.2018:
-Make a PluginManager and a class called PluginInfo that i can serialize that contain the Initializion void and general info.
+DONE: Make a PluginManager and a class called PluginInfo that i can serialize that contain the Initializion void and general info.
 
 22.09.2018:
 Fix some of the repetetive coding.
+
+23.09.2018:
+Maybe i should just make the GameObject class function the same way as the GameObjectManager, the same with the EntityManager.
+JSON serialized map, with an editor. Alot better to use than the old char representetive system.

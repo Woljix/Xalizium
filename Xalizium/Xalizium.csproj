@@ -64,6 +64,9 @@
     <Folder Include="Interfaces\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Map1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="TODO.txt" />
   </ItemGroup>
   <ItemGroup>

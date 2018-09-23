@@ -28,6 +28,13 @@ namespace Xalizium
         {
             Console.Clear();
 
+            Blockionary.Add("BlockDummy", new BlockDummy());
+            Blockionary.Add("BlockFloorDummy", new BlockFloorDummy());
+            Blockionary.Add("BlockHealth", new BlockHealth());
+            Blockionary.Add("BlockMockWall", new BlockMockWall());
+
+            //Debug.WriteLine(Blockionary._blocks.Count);
+
             PluginManager.LoadAllTheFiles();
 
             // NOTE: Maybe use this for initializing GameObjects & Items for later use.
@@ -42,7 +49,7 @@ namespace Xalizium
 
             DrawWorld(); // Should only be needed to call once. As my system will redraw the one's that have been drawn over by entities etc.
 
-            World.GameObjectManager.AddText("Hello World", new Vector2(35, 23));
+           // World.GameObjectManager.AddText("Hello World", new Vector2(35, 23)); // Test
 
             while (true)
             {
@@ -98,8 +105,6 @@ namespace Xalizium
 
         public void LoadMap(string Filename)
         {
-            // If the objects exceeds the bufferzone the game crashes
-
             // Very Hardcoded ATM, i'll fix this later when i feel like it.
 
             if (File.Exists(Filename))
@@ -116,12 +121,12 @@ namespace Xalizium
                         char c = file[y][x];
                         switch (c)
                         {
-                            case 'X': block = new BlockDummy(); break;
-                            case 'Z': block = new BlockMockWall(); break;
+                            case 'X': block = Blockionary.GetBlockByName("BlockDummy"); break;
+                            case 'Z': block = Blockionary.GetBlockByName("BlockMockWall"); break;
                             case '#': World.Player.Position = new Vector2(x, y); break;
-                            case 'O': block = new BlockFloorDummy(); break;
+                            case 'O': block = Blockionary.GetBlockByName("BlockFloorDummy"); break;
                             case 'T': entity = new CharacterDummy(); break;
-                            case 'H': block = new BlockHealth(); break;
+                            case 'H': block = Blockionary.GetBlockByName("BlockHealth"); break;
                         }
 
                         if (block != null)
