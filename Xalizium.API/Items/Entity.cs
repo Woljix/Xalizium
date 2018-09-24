@@ -27,17 +27,15 @@ namespace Xalizium.API.Items
 
             switch (Direction)
             {
-                case Direction.North: newpos.Y--; break;
-                case Direction.East: newpos.X++; break;
-                case Direction.South: newpos.Y++; break;
-                case Direction.West: newpos.X--; break;
+                case Direction.North: newpos += Vector2.North; break;
+                case Direction.East: newpos += Vector2.East; break;
+                case Direction.South: newpos += Vector2.South; break;
+                case Direction.West: newpos += Vector2.West; break;
             }
 
             newpos += this.Position;
 
-            bool CanWalk = CanMove(newpos);
-
-            if (CanWalk) { this.LastPosition = new Vector2(Position); this.Position = new Vector2(newpos); OnMove(Position);  }
+            if (CanMove(newpos)) { this.LastPosition = new Vector2(Position); this.Position = new Vector2(newpos); OnMove(Position);  }
         }
 
         private bool CanMove(Vector2 _Position)
@@ -45,15 +43,13 @@ namespace Xalizium.API.Items
             if (IsGodMode) return true;
             if (_Position.X < 0 || _Position.Y < 0 || _Position.X >= Console.BufferWidth - 1 || _Position.Y >= Console.BufferHeight - 1) return false;
 
-            var gameObjects = World.GameObjectManager.FindAllOnPosition(_Position);
+            var gameObjects = GameObject.FindAllOnPosition(_Position);
 
             if (gameObjects != null && gameObjects.Length != 0)
             {
                 foreach (GameObject obj in gameObjects)
-                    if (obj.IsSolid)
-                        return false;
-                    else
-                        obj.OnCollision(this); return true;
+                    if (obj.IsSolid) return false;
+                    else obj.OnCollision(this); return true;
             }
             return true;
         }

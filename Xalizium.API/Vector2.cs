@@ -13,7 +13,26 @@ namespace Xalizium.API
 
         public Vector2() { }
         public Vector2(int X, int Y) { this.X = X; this.Y = Y; }
-        public Vector2(Vector2 other) { this.X = other.X; this.Y = other.Y; }
+        public Vector2(Vector2 Other) { this.X = Other.X; this.Y = Other.Y; }
+
+        // Never Eat Sea Weed (North East South West)
+
+        /// <summary>
+        /// Shorthand for (0, -1) (UP)
+        /// </summary>
+        public static readonly Vector2 North = new Vector2(0, -1);
+        /// <summary>
+        /// Shorthand for (0, 1) (DOWN)
+        /// </summary>
+        public static readonly Vector2 South = new Vector2(0, 1);
+        /// <summary>
+        /// Shorthand for (-1, 0) (LEFT)
+        /// </summary>
+        public static readonly Vector2 West = new Vector2(-1, 0);
+        /// <summary>
+        /// Shorthand for (1, 0) (RIGHT)
+        /// </summary>
+        public static readonly Vector2 East = new Vector2(1, 0); 
 
         public static Vector2 operator +(Vector2 a, Vector2 b) { return new Vector2(a.X + b.X, a.Y + b.Y); }
         public static Vector2 operator -(Vector2 a, Vector2 b) { return new Vector2(a.X - b.X, a.Y - b.Y); }

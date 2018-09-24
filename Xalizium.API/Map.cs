@@ -18,6 +18,8 @@ namespace Xalizium.API
             {
                 MapFile mf = JsonConvert.DeserializeObject<MapFile>(File.ReadAllText(Filename));
 
+                if (!string.IsNullOrEmpty(mf.Title)) Debug.WriteLine("Loading Map: " + mf.Title);
+
                 World.Player.Position = mf.PlayerSpawnPoint;
 
                 foreach (MapGameObject mgo in mf.MapGameObjects)

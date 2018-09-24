@@ -62,6 +62,8 @@ namespace Xalizium.API.Managers
         }
         public void Delete(GameObject GameObject)
         {
+            if (GameObject == null)
+                return;
             // Really bad workaround but hell.
             Vector2 pos = GameObject.Position;
             GameObjects.Remove(GameObject);
