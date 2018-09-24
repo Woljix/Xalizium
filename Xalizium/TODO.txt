@@ -11,3 +11,6 @@ Fix some of the repetetive coding.
 23.09.2018:
 Maybe i should just make the GameObject class function the same way as the GameObjectManager, the same with the EntityManager.
 JSON serialized map, with an editor. Alot better to use than the old char representetive system.
+
+24.09.2018:
+The JSON Map loader is currently alittle bit to hardcoded for my liking, there should only be one gameobject creator rather than a creator for the Entities and Blocks respectivly.

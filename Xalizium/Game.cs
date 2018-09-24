@@ -26,12 +26,12 @@ namespace Xalizium
     {
         public Game()
         {
-            Console.Clear();
-
             Blockionary.Add("BlockDummy", new BlockDummy());
             Blockionary.Add("BlockFloorDummy", new BlockFloorDummy());
             Blockionary.Add("BlockHealth", new BlockHealth());
             Blockionary.Add("BlockMockWall", new BlockMockWall());
+
+            Entitionary.Add("CharacterDummy", new CharacterDummy());        
 
             //Debug.WriteLine(Blockionary._blocks.Count);
 
@@ -39,11 +39,17 @@ namespace Xalizium
 
             // NOTE: Maybe use this for initializing GameObjects & Items for later use.
 
-            LoadMap("Map1.txt");
+            //LoadMap("Map1.txt");
+
+            Map.LoadMap("Map1.json");
+
+            //MapFile.MakeCurrentMapIntoFile("Map1.json");
         }
 
         public void Run()
         {
+            Console.Clear();
+
             Console.BufferHeight = 30;
             Console.BufferWidth = 120;
 
@@ -121,12 +127,12 @@ namespace Xalizium
                         char c = file[y][x];
                         switch (c)
                         {
-                            case 'X': block = Blockionary.GetBlockByName("BlockDummy"); break;
-                            case 'Z': block = Blockionary.GetBlockByName("BlockMockWall"); break;
+                            case 'X': block = (Block)Blockionary.GetBlockByName("BlockDummy"); break;
+                            case 'Z': block = (Block)Blockionary.GetBlockByName("BlockMockWall"); break;
                             case '#': World.Player.Position = new Vector2(x, y); break;
-                            case 'O': block = Blockionary.GetBlockByName("BlockFloorDummy"); break;
+                            case 'O': block = (Block)Blockionary.GetBlockByName("BlockFloorDummy"); break;
                             case 'T': entity = new CharacterDummy(); break;
-                            case 'H': block = Blockionary.GetBlockByName("BlockHealth"); break;
+                            case 'H': block = (Block)Blockionary.GetBlockByName("BlockHealth"); break;
                         }
 
                         if (block != null)

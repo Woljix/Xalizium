@@ -58,15 +58,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Map1.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Map1.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Map1.txt" />
     <Content Include="TODO.txt" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,1017 @@
+{
+  "Title": "",
+  "PlayerSpawnPoint": {
+    "X": 3,
+    "Y": 3
+  },
+  "MapGameObjects": [
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 0,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 1,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 2,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 3,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 4,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 5,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 6,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 7,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 8,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 9,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 10,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 11,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 12,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 13,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 14,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 15,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 16,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 17,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 18,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 19,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 20,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 21,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 22,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 23,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 24,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 25,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 26,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 27,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 28,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 29,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 30,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 31,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 32,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 33,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 34,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 35,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 36,
+        "Y": 0
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 0,
+        "Y": 1
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 36,
+        "Y": 1
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 0,
+        "Y": 2
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 36,
+        "Y": 2
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 0,
+        "Y": 3
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockHealth",
+      "Position": {
+        "X": 25,
+        "Y": 3
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockHealth",
+      "Position": {
+        "X": 26,
+        "Y": 3
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockHealth",
+      "Position": {
+        "X": 27,
+        "Y": 3
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockHealth",
+      "Position": {
+        "X": 28,
+        "Y": 3
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 36,
+        "Y": 3
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 37,
+        "Y": 3
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 38,
+        "Y": 3
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 39,
+        "Y": 3
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 40,
+        "Y": 3
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 41,
+        "Y": 3
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 42,
+        "Y": 3
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 43,
+        "Y": 3
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 0,
+        "Y": 4
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockHealth",
+      "Position": {
+        "X": 25,
+        "Y": 4
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockHealth",
+      "Position": {
+        "X": 26,
+        "Y": 4
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockHealth",
+      "Position": {
+        "X": 27,
+        "Y": 4
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockHealth",
+      "Position": {
+        "X": 28,
+        "Y": 4
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockMockWall",
+      "Position": {
+        "X": 36,
+        "Y": 4
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 43,
+        "Y": 4
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 0,
+        "Y": 5
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockHealth",
+      "Position": {
+        "X": 25,
+        "Y": 5
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockHealth",
+      "Position": {
+        "X": 26,
+        "Y": 5
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockHealth",
+      "Position": {
+        "X": 27,
+        "Y": 5
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockHealth",
+      "Position": {
+        "X": 28,
+        "Y": 5
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 36,
+        "Y": 5
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 37,
+        "Y": 5
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 38,
+        "Y": 5
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 39,
+        "Y": 5
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 40,
+        "Y": 5
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 41,
+        "Y": 5
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 42,
+        "Y": 5
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 43,
+        "Y": 5
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 0,
+        "Y": 6
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 36,
+        "Y": 6
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 0,
+        "Y": 7
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 36,
+        "Y": 7
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 0,
+        "Y": 8
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 36,
+        "Y": 8
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 0,
+        "Y": 9
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 36,
+        "Y": 9
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 0,
+        "Y": 10
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockFloorDummy",
+      "Position": {
+        "X": 33,
+        "Y": 10
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockFloorDummy",
+      "Position": {
+        "X": 34,
+        "Y": 10
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockFloorDummy",
+      "Position": {
+        "X": 35,
+        "Y": 10
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 36,
+        "Y": 10
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 0,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 1,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 2,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 3,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 4,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 5,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 6,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 7,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 8,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 9,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 10,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 11,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 12,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 13,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 14,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 15,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 16,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 17,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 18,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 19,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 20,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 21,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 22,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 23,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 24,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 25,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 26,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 27,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 28,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 29,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 30,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 31,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 32,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 33,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 34,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 35,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "BlockDummy",
+      "Position": {
+        "X": 36,
+        "Y": 11
+      },
+      "Type": 0
+    },
+    {
+      "Name": "CharacterDummy",
+      "Position": {
+        "X": 9,
+        "Y": 9
+      },
+      "Type": 1
+    },
+    {
+      "Name": "CharacterDummy",
+      "Position": {
+        "X": 18,
+        "Y": 9
+      },
+      "Type": 1
+    }
+  ]
+}

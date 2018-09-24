@@ -73,6 +73,10 @@ namespace Xalizium.API.Items
         /// </summary>
         public virtual void OnTick() { }
 
+        /// <summary>
+        /// Called when an Entity collides with the GameObject
+        /// </summary>
+        /// <param name="entity"></param>
         public virtual void OnCollision(Entity entity) { }
 
         /// <summary>
