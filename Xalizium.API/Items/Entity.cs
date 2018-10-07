@@ -37,7 +37,6 @@ namespace Xalizium.API.Items
 
             if (CanMove(newpos)) { this.LastPosition = new Vector2(Position); this.Position = new Vector2(newpos); OnMove(Position);  }
         }
-
         private bool CanMove(Vector2 _Position)
         {
             if (IsGodMode) return true;

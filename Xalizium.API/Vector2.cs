@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 namespace Xalizium.API
 {
-    public class Vector2
+    public struct Vector2
     {
-        public int X { get; set; } = 0;
-        public int Y { get; set; } = 0;
+        public int X { get; set; } 
+        public int Y { get; set; }
 
-        public Vector2() { }
+        //public Vector2() { X = 0; Y = 0; }
         public Vector2(int X, int Y) { this.X = X; this.Y = Y; }
         public Vector2(Vector2 Other) { this.X = Other.X; this.Y = Other.Y; }
+
+        public static readonly Vector2 Zero = new Vector2(0, 0);
 
         // Never Eat Sea Weed (North East South West)
 

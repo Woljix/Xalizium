@@ -38,8 +38,7 @@ namespace Xalizium
 
         private static void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
         {
-            if (TimerThread != null)
-                TimerThread.Abort();
+            TimerThread?.Abort();
 
             Console.ResetColor();
             Console.Clear();

@@ -8,24 +8,13 @@ namespace Xalizium.API.Items
 {
     public abstract class GameObject
     {
-        public string Name { get; set; } = string.Empty;
+        public string Name { get;  set; } = string.Empty;
         public char Character { get; set; } = '█';
         private int _Health = 100;
         public int Health
         {
-            set
-            {
-                if (value >= 100)
-                    _Health = 100;
-                else if (value <= 0)
-                    _Health = 0;
-                else
-                    _Health = value;
-            }
-            get
-            {
-                return _Health;
-            }
+            set => _Health = Mathx.Clamp(value, 0, 100);        
+            get => _Health;        
         }
 
         public Vector2 Position { get; set; } = new Vector2();
@@ -40,13 +29,13 @@ namespace Xalizium.API.Items
         /// Shortcut to making 
         /// </summary>
         /// <param name="GameObject"></param>
-        public static void Create(GameObject GameObject) { World.GameObjectManager.Add(GameObject); }
+        public static void Create(GameObject GameObject) => World.GameObjectManager.Add(GameObject); 
 
-        public static GameObject Find (string Name) { return World.GameObjectManager.Find(Name); }
-        public static GameObject[] FindAll (string Name) { return World.GameObjectManager.FindAll(Name); }
+        public static GameObject Find (string Name) => World.GameObjectManager.Find(Name); 
+        public static GameObject[] FindAll (string Name) => World.GameObjectManager.FindAll(Name);
 
-        public static GameObject FindOnPosition (Vector2 Position) { return World.GameObjectManager.FindOnPosition(Position); }
-        public static GameObject[] FindAllOnPosition (Vector2 Position) { return World.GameObjectManager.FindAllOnPosition(Position); }
+        public static GameObject FindOnPosition (Vector2 Position) =>World.GameObjectManager.FindOnPosition(Position); 
+        public static GameObject[] FindAllOnPosition (Vector2 Position) => World.GameObjectManager.FindAllOnPosition(Position); 
         #endregion
         /// <summary>
         /// Destroys the GameObject if it is present in the GameObjectManager.

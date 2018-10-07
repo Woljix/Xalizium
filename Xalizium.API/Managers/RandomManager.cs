@@ -9,26 +9,9 @@ namespace Xalizium.API.Managers
     public static class RandomManager
     {
         private static Random _rdm; // Singleton
+        private static Random Random { get => _rdm ?? (_rdm = new Random()); } // Holy Shit, this works? OMG
 
-        private static Random Random
-        {
-            get
-            {
-                if (_rdm == null)
-                    _rdm = new Random();
-
-                return _rdm;
-            }
-        }
-
-        public static int Range(int start, int end)
-        {
-            return Random.Next(start, end);
-        }
-
-        public static int Next()
-        {
-            return Random.Next();
-        }
+        public static int Range(int start, int end) => Random.Next(start, end);
+        public static int Next()  => Random.Next();
     }
 }

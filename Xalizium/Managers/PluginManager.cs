@@ -13,6 +13,7 @@ namespace Xalizium.Managers
 {
     public static class PluginManager
     {
+        // *Insert some 2012 meme here*
         public static void LoadAllTheFiles()
         {
             string PluginFolder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Plugins");
@@ -25,18 +26,22 @@ namespace Xalizium.Managers
                 string pluginInfoFile = Path.Combine(Folder, "Setup.json");
                 if (File.Exists(pluginInfoFile))
                 {
-                    PluginInfo info = JsonConvert.DeserializeObject<PluginInfo>(File.ReadAllText(pluginInfoFile));
-
-                    var DLL = Assembly.LoadFile(Path.Combine(Folder, info.AssemblyFile));
-
-                    Type type = DLL.GetExportedTypes().Where(x => x.FullName == info.Function).FirstOrDefault();
-
-                    if (type.BaseType == typeof(Plugin))
+                    try
                     {
-                        dynamic c = Activator.CreateInstance(type);
-                        c.Initialize();
-                        Debug.WriteLine("Loaded Plugin: " + info.Name, "PLUGINMANAGER");
+                        PluginInfo info = JsonConvert.DeserializeObject<PluginInfo>(File.ReadAllText(pluginInfoFile));
+
+                        var DLL = Assembly.LoadFile(Path.Combine(Folder, info.AssemblyFile));
+
+                        Type type = DLL.GetExportedTypes().Where(x => x.FullName == info.Function).FirstOrDefault();
+
+                        if (type.BaseType == typeof(Plugin))
+                        {
+                            dynamic c = Activator.CreateInstance(type);
+                            c.Initialize();
+                            Debug.WriteLine("Loaded Plugin: " + info.Name, "PLUGINMANAGER");
+                        }
                     }
+                    catch { Debug.WriteLine(string.Format("'{0}' Failed!", pluginInfoFile)); }
                 }
             }
         }
@@ -71,7 +76,7 @@ namespace Xalizium.Managers
         public string AssemblyFile { get; set; }
 
         /// <summary>
-        /// Example: "TestPlugin.Program"
+        /// Example: "TestPlugin.Program" (The class that inherits from the Plugin class)
         /// </summary>
         public string Function { get; set; }
 
