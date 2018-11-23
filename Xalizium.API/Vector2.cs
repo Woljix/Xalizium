@@ -36,8 +36,8 @@ namespace Xalizium.API
         /// </summary>
         public static readonly Vector2 East = new Vector2(1, 0); 
 
-        public static Vector2 operator +(Vector2 a, Vector2 b) { return new Vector2(a.X + b.X, a.Y + b.Y); }
-        public static Vector2 operator -(Vector2 a, Vector2 b) { return new Vector2(a.X - b.X, a.Y - b.Y); }
+        public static Vector2 operator +(Vector2 a, Vector2 b) => new Vector2(a.X + b.X, a.Y + b.Y); 
+        public static Vector2 operator -(Vector2 a, Vector2 b) => new Vector2(a.X - b.X, a.Y - b.Y);
 
         public static bool AreEqual(Vector2 A, Vector2 B)
         {
@@ -53,10 +53,7 @@ namespace Xalizium.API
                 return false;
             }
         }
-        public override bool Equals(object obj)
-        {
-            return AreEqual(this, (Vector2)obj);
-        }
+        public override bool Equals(object obj) => AreEqual(this, (Vector2)obj);
         public override int GetHashCode()
         {
             unchecked

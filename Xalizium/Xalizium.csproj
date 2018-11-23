@@ -67,7 +67,6 @@
     <Folder Include="Interfaces\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Map1.txt" />
     <Content Include="TODO.txt" />
   </ItemGroup>
   <ItemGroup>

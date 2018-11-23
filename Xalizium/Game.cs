@@ -39,11 +39,11 @@ namespace Xalizium
 
             // NOTE: Maybe use this for initializing GameObjects & Items for later use.
 
-            //LoadMap("Map1.txt");
+            LoadMap("Map1.txt");
 
-            Map.LoadMap("Map1.json");
+            //Map.LoadMap("Map2.json");
 
-            //MapFile.MakeCurrentMapIntoFile("Map1.json");
+            //MapFile.MakeCurrentMapIntoFile("Map2.json");
         }
 
         public void Run()
@@ -101,12 +101,12 @@ namespace Xalizium
             World.Player.Draw();    
         }
 
-        public void UpdateEverything(ConsoleKey c)
+        public void UpdateEverything(ConsoleKey key)
         {
             World.GameObjectManager.GameObjects.ForEach(x => x.OnTick());
             World.EntityManager.Entities.ForEach(x => x.OnTick());
             // Update AI characters first.
-            World.Player.Update(c);
+            World.Player.Update(key);
         }
 
         public void LoadMap(string Filename)

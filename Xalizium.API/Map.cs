@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Bson;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -39,6 +40,28 @@ namespace Xalizium.API
                     }                
                 }
             }
+        }
+        public static void SaveMap(string Filename, MapFile map, bool BSON = false)
+        {
+            string data = string.Empty;
+
+            if (BSON)
+            {
+                MemoryStream ms = new MemoryStream();
+                using (BsonWriter writer = new BsonWriter(ms))
+                {
+                    JsonSerializer json = new JsonSerializer();
+                    json.Serialize(writer, map);
+                }
+
+                data = Convert.ToBase64String(ms.ToArray());
+            }
+            else
+            {
+                data = JsonConvert.SerializeObject(map, Formatting.Indented);
+            }
+
+            File.WriteAllText(Filename, data);
         }
     }
 
