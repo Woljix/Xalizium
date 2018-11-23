@@ -1,4 +1,4 @@
-# Xalizium Prototype Engine
+# Xalizium Engine Alpha (Not Really Playable)
 
 
 This is a small "game-engine" that i have been working on, it's not the best, but i use it to experiment on. I have learned alot from making this. 
